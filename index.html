@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <center>
+        <h1>IDESWEB</h1>
+        <h2>Formulario de registro</h2>
+    </center>
+    <div class="container">
+        <div class="contenido1" >
+            <fieldset>
+                <legend><b>¿QUIÉN ERES?</b></legend>
+                <label for="">Nombre</label><br>
+                <input type="text" placeholder="Nombre de la persona"><br><br>
+    
+                <label for="">Apellido</label><br>
+                <input type="text" placeholder="Apellido de la persona"><br><br>
+    
+                <label for="">Correo electronico</label><br>
+                <input type="email" placeholder="Correo de la persona"><br><br>
+    
+                <label for="">Fecha de nacimiento</label><br>
+                <input type="date" placeholder="Fecha de nacimiento de la persona">
+            </fieldset>
+        </div>
+        <div class="contenido2">
+            <fieldset>
+                <legend><b>¿DE DÓNDE ERES?</b></legend>
+                <label for="">Ciudad</label><br>
+                <input type="text" placeholder="Ciudad de la persona"><br><br>
+                <label for="">Código postal</label><br>
+                <input type="text" placeholder="Código postal del pais donde reside la persona"><br><br>
+                <label for="">Pais</label><br>
+                <select name="Pais">
+                        <option value="Colombia">Colombia</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Venezuela">Venezuela</option>
+                        <option value="Ecuador">Ecuador</option>
+                </select>
+            </fieldset>
+        </div>
+
+    </div>
+    
+    <br><br><br>
+
+    
+        
+    <div class="contenido3">
+        <fieldset>
+            <legend><b>¿CÓMO QUIERES INICIAR SECCIÓN?</b></legend>
+            <label for="">Nombre de usuario</label><br>
+            <input type="text" placeholder="Nombre usuario de la persona"><br><br>
+            <label for="">Contraseña</label><br>
+            <input type="password" placeholder="Contraseña de la persona"><br><br>
+            <label for="">Vuelva a escribir la contraseña</label><br>
+            <input type="password" placeholder="Vuelva a escribir la contraseña de la persona">
+        </fieldset>
+    </div>
+
+    <div class="contenido4">
+        <fieldset>
+            <legend>CONDICIONES DE REGISTRO</legend>
+            <label for="">Deseo recibir ofertas de IDESWEB</label><br>
+            <input type="radio" name="opcion"> <label for="">Una vez al día</label>
+            <input type="radio" name="opcion"> <label for="">Una vez a la semana</label>
+            <input type="radio" name="opcion"> <label for="">Una vez al mes</label><br>
+            <input type="radio"> <label for="">Acepto el acuerdo de servicios, la declaración de privacidad y la declaración de uso de cookies</label>
+        </fieldset>
+    </div>
+        <br><br>
+        <center class="boton">
+            <input type="button" value="Crear cuenta" style='width:100px; height:45px'>
+        </center>
+</body>
+</html>
